@@ -1,0 +1,38 @@
+   body {
+            background-image: url("https://png.pngtree.com/background/20230611/original/pngtree-space-wallpapers-background-planets-and-saturn-picture-image_3167686.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            position: relative;
+        }
+        h1 {
+            margin: 0px;
+            padding: 20px;
+            color: white;
+            font-weight: bold;
+        }
+        p {
+            color: white;
+            font-size: 100px;
+        }
+        table,th,tbody,td{ color: white;
+            border-collapse: collapse;
+            border: 5px solid white;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        th,td{ font-size: 20px;
+            padding: 10px;
+        }
+        h2{
+            font-weight: bold;
+            font-size: 40px;
+            color: white;
+        }
+        .back{
+            background-color: rgb(247, 247, 135);
+            color: red;
+            display: inline;
+            border-radius: 2px;
+            border: 1px solid red;
+        }
