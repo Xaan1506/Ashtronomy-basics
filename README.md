@@ -2,7 +2,7 @@ Astronomy Basics — Webpage Project
 
 📘 Overview
 
-This project is a simple educational webpage built with HTML & CSS, focusing on introducing the basics of Astronomy to beginners. It was created as part of the S&W Individual Project (Graded) assignment.
+This project is a simple educational webpage built with HTML & CSS, focusing on introducing the basics of Astronomy to beginners. It is created as part of the S&W Individual Project (Graded) assignment.
 
 🌌 Topic: Astronomy Basics
 
@@ -15,9 +15,6 @@ Understand the structure of the Solar System.
 Learn about stars, constellations, and moon phases.
 
 Discover simple observations you can do without any telescope.
-
-Explore definitions of key astronomy terms (e.g., AU, light-year, redshift).
-
 💻 Features
 
 Responsive design that works on both desktop and mobile screens.
@@ -33,11 +30,6 @@ Beginner-friendly navigation and visuals.
 HTML5 — for structure and content.
 
 CSS3 — for layout, styling, and responsive design.
-
-Google Fonts (Inter) — for smooth typography.
-
-No external frameworks or JavaScript libraries are required.
-
 📁 File Structure
 
 Astronomy-Basics/
