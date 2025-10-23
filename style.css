@@ -1,38 +1,134 @@
-   body {
-            background-image: url("https://png.pngtree.com/background/20230611/original/pngtree-space-wallpapers-background-planets-and-saturn-picture-image_3167686.jpg");
-            background-size: cover;
-            background-attachment: fixed;
-            position: relative;
-        }
-        h1 {
-            margin: 0px;
-            padding: 20px;
-            color: white;
-            font-weight: bold;
-        }
-        p {
-            color: white;
-            font-size: 100px;
-        }
-        table,th,tbody,td{ color: white;
-            border-collapse: collapse;
-            border: 5px solid white;
-            position: relative;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        th,td{ font-size: 20px;
-            padding: 10px;
-        }
-        h2{
-            font-weight: bold;
-            font-size: 40px;
-            color: white;
-        }
-        .back{
-            background-color: rgb(247, 247, 135);
-            color: red;
-            display: inline;
-            border-radius: 2px;
-            border: 1px solid red;
-        }
+body {
+    background-image: url("beautiful-view-stars-night-sky.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+p {
+    color: white;
+    font-size: 100px;
+}
+table,th,tbody,td{ color: white;
+    border-collapse: collapse;
+    border: 2px solid white;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+th,td{ font-size: 20px;
+    padding: 10px;
+}
+h2{
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(53, 40, 243);
+}
+.back {
+    color: rgb(53, 40, 243);
+    display: inline;
+    border-radius: 2px;
+}
+
+.planets{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.Sun p {
+    font-size: 25px;
+}
+.Sun { 
+    background: linear-gradient(90deg, #230101 0%, #520b0b 25%, #811c1c 50%, #ea7b7b 75%, #FF6D00 100%);
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.Mercury { 
+    background: linear-gradient(90deg, #230101 0%, #520b0b 25%, #811c1c 50%, #ea7b7b 75%, #FF6D00 100%);
+    border: 2px solid black;
+}
+
+.Mercury p {
+    font-size: 25px;
+}
+
+.Mercury img{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Sun img{
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Pluto img{
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Venus img, .Earth img, .Mars img, .Jupiter img, .Saturn img, .Uranus img, .Neptune img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Venus p {
+    font-size: 25px;
+}
+
+.Venus { 
+    background: linear-gradient(90deg, #230101 0%, #520b0b 25%, #811c1c 50%, #ea7b7b 75%, #FF6D00 100%);
+    border: 2px solid black;
+}
+
+.Earth p {
+    font-size: 25px;
+}
+
+.Earth { 
+    background: linear-gradient(90deg, #230101 0%, #520b0b 25%, #811c1c 50%, #ea7b7b 75%, #FF6D00 100%);
+    border: 2px solid black;
+}
+.Mars, .Jupiter, .Saturn, .Uranus, .Neptune{ 
+    background: linear-gradient(90deg, #230101 0%, #520b0b 25%, #811c1c 50%, #ea7b7b 75%, #FF6D00 100%);
+    border: 2px solid black;
+}
+
+.Mars p, .Jupiter p, .Saturn p, .Uranus p, .Neptune p, .Pluto p {
+    font-size: 25px;
+}
+
+.Pluto {
+    background: linear-gradient(90deg, #230101 0%, #520b0b 25%, #811c1c 50%, #ea7b7b 75%, #FF6D00 100%);
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.headline h2{
+    color: white;
+    text-align: center;
+}
