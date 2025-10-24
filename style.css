@@ -18,10 +18,17 @@ table,th,tbody,td{ color: white;
 th,td{ font-size: 20px;
     padding: 10px;
 }
-h2{
+.backgroundone{
     font-weight: bold;
     font-size: 40px;
-    color: rgb(16, 9, 118);
+    background: linear-gradient(90deg, #020b24 0%, #0c225b 25%, #263db0 50%, #3a68c4 75%, #4678dd 100%);
+    background-color: grey;
+    display: inline-block;
+    border-radius: 20%;
+}
+.headline h2{
+    font-weight: bold;
+    font-size: 40px;
 }
 .back {
     color: rgb(53, 40, 243);
@@ -47,7 +54,7 @@ h2{
     font-style: normal;
 }
 .Sun { 
-    background: linear-gradient(90deg, #230101 0%, #520b0b 25%, #811c1c 50%, #ea7b7b 75%, #FF6D00 100%);
+    background: linear-gradient(90deg, #f19e0e 0%, #a64619 25%, #811c1c 50%, #a64619 75%, #f19e0e 100%);
     border: 2px solid black;
     display: grid;
     grid-template-columns: 1fr;
@@ -72,10 +79,12 @@ h2{
 }
 
 .Mercury img{
-    width: 300px;
+    width: 290px;
+    height: 224px;
     display: block;
     margin-left: 10px;
     margin-right: 10px;
+    border-radius: 10%;
 }
 
 .Sun img{
@@ -83,6 +92,7 @@ h2{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 10%;
 }
 
 .Pluto img{
@@ -90,11 +100,13 @@ h2{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 10%;
 }
 .Venus img, .Earth img, .Mars img, .Jupiter img, .Saturn img, .Uranus img, .Neptune img {
     display: block;
     margin-left: 10px;
     margin-right: 10px;
+    border-radius: 10%;
 }
 .Venus p {
     font-size: 25px;
@@ -132,7 +144,7 @@ h2{
 }
 
 .Pluto {
-    background: linear-gradient(90deg, #020b24 0%, #0c225b 25%, #263db0 50%, #3a68c4 75%, #4678dd 100%);
+    background: linear-gradient(90deg, #181818 0%, #313232 25%, #808082 50%, #313232 75%, #181818 100%);
     border: 2px solid black;
     display: grid;
     grid-template-columns: 1fr;
@@ -147,26 +159,16 @@ h2{
     color: white;
     text-align: center;
 }
-/* .Sun {
+.fun-fact p{
     white-space: nowrap;
     overflow: hidden;      
     text-overflow: ellipsis; 
 }
-.Sun p:hover{
-    white-space: normal;   
-    overflow: visible;    
-    text-overflow: clip;
-} */
- .fun-fact p{
-    white-space: nowrap;
-    overflow: hidden;      
-    text-overflow: ellipsis; 
- }
  .fun-fact p:hover{
     white-space: normal;   
     overflow: visible;    
     text-overflow: clip;
- }
+}
 
 .fun-fact {
   font-family: "Roboto Mono", monospace;
@@ -177,7 +179,7 @@ h2{
 
 nav {
   width: 100%;
-  background-color: rgb(41, 41, 41);
+  background:linear-gradient(180deg, #020202 0%, #1d1c1c 25%, #2e2e2e 50%, #4a4a4a 75%, #60605f 100%);
   margin: auto;
   padding: 10px;
   display: flex;
@@ -205,15 +207,17 @@ nav ul li a:hover {
 }
 
 .logo {
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 40px;
+    font-weight: bolder;
     color: #fff;
     text-decoration: none;
-    padding-left: 2rem ;
-    font-family: "Barriecito", system-ui;
+    padding-left: 1rem ;
+    font-family: "Jim Nightshade", cursive;
     font-weight: 400;
     font-style: normal;
 }
+
 .logo a:hover{
     color: #020b24;
 }
+
