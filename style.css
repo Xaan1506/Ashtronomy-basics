@@ -1,8 +1,12 @@
+ html {
+            scroll-behavior: smooth;
+ }
 body {
     background-image: url("beautiful-view-stars-night-sky.jpg");
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+    min-height: 100vh;
 }
 p {
     color: white;
@@ -17,14 +21,22 @@ table,th,tbody,td{ color: white;
 }
 th,td{ font-size: 20px;
     padding: 10px;
+    border-bottom: 1px solid black
+}
+th{ background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+td{
+    border: 0.5px solid white;
 }
 .backgroundone{
     font-weight: bold;
     font-size: 40px;
-    background: linear-gradient(90deg, #020b24 0%, #0c225b 25%, #263db0 50%, #3a68c4 75%, #4678dd 100%);
-    background-color: grey;
     display: inline-block;
-    border-radius: 20%;
+    color: white;
 }
 .headline h2{
     font-weight: bold;
@@ -48,8 +60,8 @@ th,td{ font-size: 20px;
 }
 
 .Sun p {
-    font-size: 25px;
-    font-family: "Norican", cursive;
+    font-size: 23px;
+    font-family: "Poppins";
     font-weight: 400;
     font-style: normal;
 }
@@ -72,8 +84,8 @@ th,td{ font-size: 20px;
 }
 
 .Mercury p {
-    font-size: 25px;
-    font-family: "Norican", cursive;
+    font-size: 20px;
+    font-family: "Poppins";
     font-weight: 400;
     font-style: normal;
 }
@@ -109,8 +121,8 @@ th,td{ font-size: 20px;
     border-radius: 10%;
 }
 .Venus p {
-    font-size: 25px;
-    font-family: "Norican", cursive;
+    font-size: 20px;
+    font-family: "Poppins";
     font-weight: 400;
     font-style: normal;
 }
@@ -121,8 +133,8 @@ th,td{ font-size: 20px;
 }
 
 .Earth p {
-    font-size: 25px;
-    font-family: "Norican", cursive;
+    font-size: 20px;
+    font-family: "Poppins";
     font-weight: 400;
     font-style: normal;
 }
@@ -137,8 +149,8 @@ th,td{ font-size: 20px;
 }
 
 .Mars p, .Jupiter p, .Saturn p, .Uranus p, .Neptune p, .Pluto p {
-    font-size: 25px;
-    font-family: "Norican", cursive;
+    font-size: 20px;
+    font-family: "Poppins";
     font-weight: 400;
     font-style: normal;
 }
@@ -164,7 +176,7 @@ th,td{ font-size: 20px;
     overflow: hidden;      
     text-overflow: ellipsis; 
 }
- .fun-fact p:hover{
+.fun-fact p:hover{
     white-space: normal;   
     overflow: visible;    
     text-overflow: clip;
@@ -179,12 +191,13 @@ th,td{ font-size: 20px;
 
 nav {
   width: 100%;
-  background:linear-gradient(180deg, #020202 0%, #1d1c1c 25%, #2e2e2e 50%, #4a4a4a 75%, #60605f 100%);
-  margin: auto;
-  padding: 10px;
+  background:linear-gradient(180deg, #020202 0%, #1d1c1c 25%, #2e2e2e 50%, #4a4a4a 75%, #060606 100%);
+  margin: 0px;
+  padding: 10px 1rem;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 nav ul {
@@ -195,15 +208,22 @@ nav ul {
   gap: 2rem;
   color: white;
   align-items: center;
+  padding-right: 1rem;
+  margin-left: auto;
+  padding-right: 2rem;
 }
 nav ul li a {
   color: white;
   text-decoration: none;
   font-size: 32px;
   transition: color 0.3s ease;
+  display: flex;
+  position: sticky;
 }
 nav ul li a:hover {
   color: green;
+  transform: translateY(-2px);
+
 }
 
 .logo {
@@ -211,13 +231,50 @@ nav ul li a:hover {
     font-weight: bolder;
     color: #fff;
     text-decoration: none;
-    padding-left: 1rem ;
+    padding-left: 3rem ;
     font-family: "Jim Nightshade", cursive;
     font-weight: 400;
     font-style: normal;
+    margin-right: 1rem;
 }
 
 .logo a:hover{
     color: #020b24;
 }
+.about {
+        background: rgba(0, 0, 0, 0.8);
+        border-radius: 20px;
+        padding: 50px;
+        margin: 60px auto;
+        max-width: 1200px;
+        border: 1px solid white;
+}
+.about h2 {
+            font-size: 40px;
+            color: #4678dd;
+            margin-bottom: 30px;
+            text-align: center;
+}
+.about p {
+        font-size: 20px;
+        line-height: 2;
+        margin-bottom: 20px;
+}
+/* .nav-logo {
+    height: 50px; 
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.nav-logo:hover {
+    transform: rotate(15deg);
+}
+nav {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    
+} */
+
+
 
