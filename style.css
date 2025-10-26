@@ -279,6 +279,22 @@ nav {
     color: white;
     font-size: 20px;
 }
+.gallery{
+    width: 10px;
+    border-radius: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1px;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #090909;
+    padding: 1px;
+    background-color: #263db0;
 
-
-
+}
+.gallery img{
+    width: 400px;
+    border-radius: 1%;
+    height: 200px;
+}
