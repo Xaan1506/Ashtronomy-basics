@@ -260,8 +260,8 @@ nav ul li a:hover {
         line-height: 2;
         margin-bottom: 20px;
 }
-/* .nav-logo {
-    height: 50px; 
+.nav-logo {
+    height: 90px; 
     margin-right: 20px;
     transition: transform 0.3s ease;
 }
@@ -273,8 +273,7 @@ nav {
     display: flex;
     align-items: center;
     padding: 10px 20px;
-    
-} */
+}
 
 
 
