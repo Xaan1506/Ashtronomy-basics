@@ -262,6 +262,7 @@ nav ul li a:hover {
 }
 .nav-logo {
     height: 90px; 
+    width: 200px;
     margin-right: 20px;
     transition: transform 0.3s ease;
 }
@@ -273,6 +274,10 @@ nav {
     display: flex;
     align-items: center;
     padding: 10px 20px;
+}
+.gallery{
+    color: white;
+    font-size: 20px;
 }
 
 
