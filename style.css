@@ -148,7 +148,7 @@ td{
     border: 2px solid black;
 }
 
-.Mars p, .Jupiter p, .Saturn p, .Uranus p, .Neptune p, .Pluto p {
+.Mars p, .Jupiter p, .Saturn p, .Uranus p, .Neptune p, .Pluto p,.Moon p{
     font-size: 20px;
     font-family: "Poppins";
     font-weight: 400;
@@ -166,6 +166,40 @@ td{
     margin: 0 auto;
     border: 1px solid #ccc;
     padding: 10px;
+}
+.celestialbodies{
+    background: linear-gradient(90deg, #181818 0%, #313232 25%, #808082 50%, #313232 75%, #181818 100%);
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: auto auto; 
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.Moon,.Asteroid,.Constellations,.Blackhole {
+    min-height: 450px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.celestialbodies p {
+    flex-grow: 1; 
+    text-align: left; 
+    margin-top: 15px;
+    font-size: 18px;
+}
+.celestialbodies img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto; 
+    border-radius: 5%;
 }
 .headline h2{
     color: white;
@@ -275,26 +309,95 @@ nav {
     align-items: center;
     padding: 10px 20px;
 }
-.gallery{
-    color: white;
-    font-size: 20px;
+.gallery {
+        margin: 50px auto;
+        max-width: 1200px;
+        padding: 30px;
+        background: rgba(10, 10, 10, 0.2);
+        border: 2px solid #f4f5f7;
 }
-.gallery{
-    width: 10px;
-    border-radius: 1%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 1px;
-    width: 80%;
-    margin: 0 auto;
-    border: 1px solid #090909;
-    padding: 1px;
-    background-color: #263db0;
-
+.gallery h1 {
+        text-align: center;
+        color: #eff0f3;
+        font-size: 45px;
+        margin-bottom: 30px;
 }
-.gallery img{
-    width: 400px;
-    border-radius: 1%;
-    height: 200px;
+.gallery-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0px;
 }
+.gallery img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+        transition: all 0.3s ease;
+}
+.gallery img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 25px rgba(206, 208, 212, 0.9);
+}
+.contact-form-container {
+            width: 100%;
+            max-width: 600px;
+            margin: 60px auto;
+            padding: 40px;
+            background: rgba(5, 5, 15, 0.9);
+            border: 2px solid #4678dd;
+            border-radius: 15px;
+        }
+        .contact-form-container h2 {
+            text-align: center;
+            color: #4678dd;
+            margin-bottom: 30px;
+            font-size: 36px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 18px;
+            font-weight: 600;
+            color: #fff;
+        }
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group input[type="tel"] {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #3a68c4;
+            border-radius: 8px;
+            background-color: rgba(255, 255, 255, 0.05);
+            color: #fff;
+            font-size: 16px;
+            box-sizing: border-box;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+        .submit-button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(45deg, #4678dd 0%, #764ba2 100%);
+            color: white;
+            font-size: 20px;
+            font-weight: 700;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s ease, transform 0.1s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .submit-button:hover {
+            background: linear-gradient(45deg, #3a68c4 0%, #667eea 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(70, 120, 221, 0.5);
+        }
+        .submit-button:active {
+            transform: translateY(0);
+        }
